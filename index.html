@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noche Buena Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400;700&family=Noto+Serif:wght@400;700&family=Pacifico&family=Hind+Mysuru:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Hind Mysuru', sans-serif;
+            background-color: #337a55;
+            color: #333;
+        }
+
+        header {
+            background-color: #9c292a;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 6rem;
+            margin: 0;
+            letter-spacing: 3px;
+        }
+
+        header h2 {
+            font-family: 'Pacifico', cursive;
+            font-size: 1.5rem;
+            letter-spacing: 5px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.5rem;
+            margin: 0.5rem;
+            text-align: center;
+        }
+
+        .card p {
+            font-family: 'Noto Serif', serif;
+            font-size: 1rem;
+            margin: 0.5rem;
+            text-align: justify;
+            padding: 0 1rem;
+        }
+
+        .card a {
+            display: block;
+            text-align: center;
+            margin: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #9c292a;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .card a:hover {
+            background-color: #9c292a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #9c292a;
+            color: white;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header h2 {
+                font-size: 1.25rem;
+            }
+
+            .card h3 {
+                font-size: 1.25rem;
+            }
+
+            .card p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noche Buena Recipes</h1>
+        <h2>delicious recipes for your festive celebrations</h2>
+    </header>
+
+    <div class="container">
+        <!-- Card 1 = Mango Float-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/2f/f4/c8/2ff4c83ec7a980c115f06498936c3b51.jpg" alt="Mango Float">
+            <h3>Mango Float</h3>
+            <p>Mango float is a classic Filipino dessert made with layers of ripe mangoes, sweetened cream, and 
+                graham crackers, chilled to creamy perfection. Its refreshing sweetness and vibrant tropical flavors make 
+                it a festive favorite, especially during Noche Buena.</p>
+            <a href="https://panlasangpinoy.com/shared-recipe-jeans-graham-mango-float/">View Recipe</a>
+        </div>
+
+        <!-- Card 2 = Carbonara -->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/08/3d/d0/083dd08ad9f9b7949dbb89747c88408b.jpg" alt="Carbonara">
+            <h3>Carbonara</h3>
+            <p>Filipino-style carbonara is a creamy pasta dish made with a rich white sauce, bacon or ham,
+                 and a touch of sweetness, often enhanced with grated cheese. Popular during Noche Buena, 
+                 it’s a hearty and indulgent dish that perfectly complements the holiday feast.</p>
+            <a href="https://panlasangpinoy.com/carbonara-recipe-filipino-style-knr-bc/">View Recipe</a>
+        </div>
+
+        <!-- Card 3 = Puto Bumbong -->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/51/f5/54/51f5545db9802788b8acbab8f8fe87d3.jpg" alt="Puto Bumbong">
+            <h3>Puto Bumbong</h3>
+            <p>Puto bumbong is a cherished Filipino delicacy made of purple-hued glutinous rice steamed in bamboo tubes, traditionally enjoyed during the Christmas season. Served with butter, grated coconut, and muscovado sugar, its unique flavor and festive charm make it a Noche Buena favorite.</p>
+            <a href="https://panlasangpinoy.com/puto-bumbong-recipe/">View Recipe</a>
+        </div>
+
+        <!-- Card 4 = Embutido -->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/ee/f4/f9/eef4f93d8dde9facad0138787e8be3a2.jpg" alt="Embutido">
+            <h3>Embutido</h3>
+            <p> Filipino-style meatloaf made with ground pork, vegetables, and seasonings, often filled with 
+                sausage and eggs, wrapped in foil, and steamed or baked; a Noche Buena staple for its festive appeal and savory flavor.</p>
+            <a href="https://panlasangpinoy.com/embutido/">View Recipe</a>
+        </div>
+
+        <!-- Card 5 = Spaghetti -->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/b9/c6/df/b9c6df14412e5ed8cfbd012fbb692044.jpg" alt="Spaghetti">
+            <h3>Spaghetti</h3>
+            <p>Filipino spaghetti is a sweet and savory pasta dish featuring a rich tomato-based sauce with hotdogs, 
+                ground meat, and a touch of sugar, topped with grated cheese, making it a crowd-pleasing addition to any holiday table.</p>
+            <a href="https://panlasangpinoy.com/filipino-style-spaghetti/">View Recipe</a>
+        </div>
+        
+        <!-- Card 6 = Macaroni Salad -->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/ee/95/39/ee953944142f77c9f847ed7a66239359.jpg" alt="Macaroni Salad">
+            <h3>Macaroni Salad</h3>
+            <p>A creamy and sweet cold salad made with elbow macaroni, mayonnaise, condensed milk, and a mix of fruits,
+                 vegetables, and cheese, often enjoyed as a dessert or side dish during festive celebrations.</p>
+            <a href="https://panlasangpinoy.com/classic-macaroni-salad-recipe/">View Recipe</a>
+        </div>
+
+        <!-- Card 7 = Pork Belly or Lechon Belly -->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/d5/23/93/d52393d4892b9e8851e04738f6cd651f.jpg" alt="Lechon Belly">
+            <h3>Lechon Belly</h3>
+            <p>A flavorful and crispy pork belly roll stuffed with herbs and spices, roasted to perfection, 
+                serving as the centerpiece of many Filipino holiday feasts.</p>
+            <a href="https://panlasangpinoy.com/crispy-lechon-belly-recipe/">View Recipe</a>
+        </div>
+
+        <!-- Card 8 = Biko -->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/3f/40/7f/3f407fb125cd023ca29cc80b15039bf9.jpg" alt="Biko">
+            <h3>Biko</h3>
+            <p>A traditional Filipino sticky rice cake cooked with coconut milk and brown sugar, 
+                topped with latik or caramelized coconut cream, offering a rich and chewy dessert perfect for Noche Buena.</p>
+            <a href="https://panlasangpinoy.com/filipino-asian-food-dessert-rice-cake-biko-recipe/">View Recipe</a>
+        </div>
+
+        <!-- Card 9 = Chicken Relleno -->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/94/d5/d1/94d5d19774632ae688a0ddaa7fbdd271.jpg" alt="Chicken Relleno">
+            <h3>Chicken Relleno</h3>
+            <p>A deboned whole chicken stuffed with a savory filling of ground meat, vegetables, and spices, 
+                baked to golden perfection, symbolizing festive indulgence.</p>
+            <a href="https://www.panlasangpinoymeatrecipes.com/chicken-relleno-rellenong-manok.htm">View Recipe</a>
+        </div>
+
+        <!-- Card 10 = Lasagna -->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/a2/da/5b/a2da5b1176771c3608c760efc61a6599.jpg" alt="Lasagna">
+            <h3>Lasagna</h3>
+            <p>Filipino-style lasagna features layers of pasta, a rich tomato-meat sauce, creamy béchamel, 
+                and melted cheese, creating a hearty and satisfying dish perfect for sharing during Noche Buena.</p>
+            <a href="https://panlasangpinoy.com/italian-food-cheese-lasagne-lasagna-recipe/">View Recipe</a>
+        </div>
+
+        <!-- Card 11 = Lumpiang Shanghai-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/7a/5f/44/7a5f44ff7e9c18cc0756c4049c3507f4.jpg" alt="Lumpiang Shanghai">
+            <h3>Embutido</h3>
+            <p>Crispy spring rolls filled with seasoned ground pork, carrots, and onions, fried to golden perfection 
+                and served with sweet chili sauce, making it a favorite appetizer or finger food at holiday gatherings.</p>
+            <a href="https://panlasangpinoy.com/filipino-lumpia-recipe/">View Recipe</a>
+        </div>    
+        
+        <!-- Card 12 = Buttered Shrimp-->
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/cd/7f/f7/cd7ff7c1d3353bf8128b9d270c6705ef.jpg" alt="Buttered Shrimp">
+            <h3>Buttered Shrimp</h3>
+            <p>Buttered shrimp is a flavorful Filipino dish featuring succulent shrimp sautéed in a rich blend of butter, 
+                garlic, and spices. Its savory and aromatic taste makes it a delightful addition to the Noche Buena spread,
+                 offering a touch of indulgence and seafood goodness.</p>
+            <a href="https://panlasangpinoy.com/buttered-garlic-shrimp/">View Recipe</a>
+        </div>    
+    </div>
+
+    <footer>
+        &copy; 2024 Noche Buena Shop | All Rights Reserved | Group 5 BSIT - 2A
+    </footer>
+</body>
+</html>
